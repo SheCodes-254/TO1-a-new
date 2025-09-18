@@ -1,4 +1,4 @@
-/* General Reset */
+/* Body Content */
 * {
   margin: 0;
   padding: 0;
@@ -24,9 +24,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #4B2E2A; /* #7B5E2A; /* dark brown from logo */
+  background-color: #4B2E2A; /* #7B5E2A; /* dark brown */
 
-  padding: 25px 40px; /* thicker navbar */
+  padding: 25px 40px; 
   border-bottom: 7px solid #F5DEB3;
 }
 
@@ -45,7 +45,7 @@ body {
 
 .navbar ul li a {
   text-decoration: none;
-  color: #FFFBEA; /* cream text */
+  color: #FFFBEA; 
   font-weight: bold;
   padding: 10px 15px;
   border-radius: 6px;
@@ -55,32 +55,27 @@ body {
 
 /* Hover & Active Link */
 .navbar ul li a:hover {
-  background-color: #FFD966; /* gold accent */
-  color: #2E2E2E; /* dark text */
+  background-color: #FFD966; /* gold */
+  color: #2E2E2E; 
 }
-
- /* .navbar ul li a.active {
-  background-color: #5C4520; /* even darker brown *
-  color: #FFF;
- } */
 
  .navbar ul li a.active {
   background-color: #F5DEB3; /* cream background */
-  color: #4B2E2A; /* dark brown text */
+  color: #4B2E2A; 
   border-radius: 5px; 
 }
 
 
 /* Main Content */
 main {
-  flex: 1; /* pushes footer down */
+  flex: 1; 
   padding: 30px 40px;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  padding: 30px; /* bigger footer */
+  padding: 30px; 
   background: #4B2E2A; /* #7B5E2A; /* dark brown */
   color: #FFFBEA;
   font-size: 15px;
