@@ -1,4 +1,4 @@
-// Optional: highlight current page automatically
+// Highlights selected page - User feedback
 document.addEventListener("DOMContentLoaded", () => {
   const current = location.pathname.split("/").pop();
   const links = document.querySelectorAll(".navbar ul li a");
